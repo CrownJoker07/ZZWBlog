@@ -1,7 +1,6 @@
 ---
-title: "resume"
+title: "简历"
 slug: "resume"
-layout: "resume"
 outputs:
     - html
     - json
