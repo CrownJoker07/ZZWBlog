@@ -2,3 +2,5 @@ baseurl = "https://crownjoker07.github.io/"
 languageCode = "zh-cn"
 title = "ZZWBlog"
 theme = 'hugo-theme-stack'
+[params]
+  favicon = "favicon/favicon.ico"
