@@ -1,5 +1,5 @@
 baseurl = "https://crownjoker07.github.io/"
-languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
 title = "ZZWBlog"
 theme = 'hugo-theme-stack'
 [params]
