@@ -21,7 +21,11 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # 从默认的 GITHUB_TOKEN 改为自己的 Personal Token
-          github_token: ${{ secrets.PERSONAL_TOKEN }}  
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}  
           # 指定目标仓库（格式：用户名/仓库名）
           external_repository: CrownJoker07/CrownJoker07.github.io
           publish_dir: ./public
+          # 强制目标分支为 main
+          publish_branch: main
+          # 添加以下参数解决历史提交冲突
+          force_orphan: true
