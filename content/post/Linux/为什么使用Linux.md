@@ -1,8 +1,7 @@
 ---
-title: 国内为什么不能直接访问谷歌？
+title: 为什么使用Linux?
 slug: Linux-1
 date: 2025-04-17 21:58:00+0800
-draft: true
 categories:
     - Linux
 ---
