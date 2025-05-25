@@ -1,9 +1,9 @@
 ---
-title: "链接"
+title: "项目"
 links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
+  - title: IMGUIDebugger
+    description: IMGUIDebugger 是一个用于 Unity 游戏引擎的调试工具包，提供了丰富的调试窗口和功能，帮助开发者在开发过程中更高效地调试和监控游戏状态。
+    website: https://github.com/CrownJoker07/IMGUIDebugger.git
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 slug: "Links"
 menu:
@@ -15,20 +15,4 @@ menu:
 comments: false
 ---
 
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.
+以下是个人项目
