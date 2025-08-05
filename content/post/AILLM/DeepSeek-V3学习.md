@@ -9,7 +9,7 @@ categories:
 > 最近AI大模型非常流行、中国也产生了许多属于自己的AI大模型，例如DeepSeek-V3等，作为程序员，我也打算了解一下AI大模型究竟是什么原理，居然可以通过对话的形式告诉你答案。
 
 ### 源码拉取
-源码地址：<https://github.com/CrownJoker07/DeepSeek-V3>  
+源码地址：<https://github.com/deepseek-ai/DeepSeek-V3.git>  
 我fork了一份，方便自己学习。搞不好，还能提交PR，成为贡献者之一。
 
 ### 官方论文
