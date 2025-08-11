@@ -9,14 +9,16 @@ categories:
 > 最近AI大模型非常流行、中国也产生了许多属于自己的AI大模型，例如DeepSeek-V3等，作为程序员，我也打算了解一下AI大模型究竟是什么原理，居然可以通过对话的形式告诉你答案。
 
 ### 源码拉取
+
 源码地址：<https://github.com/deepseek-ai/DeepSeek-V3.git>  
-我fork了一份，方便自己学习。搞不好，还能提交PR，成为贡献者之一。
 
 ### 官方论文
+
 地址：<https://arxiv.org/pdf/2412.19437>
 
 ### 项目布局分析
-```
+
+```text
 # 项目目录结构
 .
 ├── README.md                 # 核心说明文档
@@ -56,12 +58,15 @@ categories:
 ```
 
 ### README阅读
+
 #### Introduction
+
 > We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable. Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks.
 
 关键点：Mixture-of-Experts (MoE)、Multi-head Latent Attention (MLA) 、auxiliary-loss-free strategy、multi-token prediction
 
 评测基准：
+
 - MMLU（Massive Multitask Language Understanding，大规模多任务语言理解）：  
 一个涵盖 57 个主题的多项选择题基准，用于评估大规模语言模型的知识和推理能力。包括基本数学、美国历史、计算机科学、法律等多个领域。
 - MMLU Pro：  
@@ -78,6 +83,7 @@ OpenAI从MATH评测数据集中精选的500个更具代表性的数学评测基�
 OpenAI基于SWE-Bench提炼的更加准确和更具代表性的大模型代码工程任务解决能力评测
 
 #### Model Summary
+
 ---
 Architecture: Innovative Load Balancing Strategy and Training Objective
 
