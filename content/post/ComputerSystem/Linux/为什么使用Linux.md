@@ -1,6 +1,5 @@
 ---
 title: 为什么使用Linux?
-slug: Linux-1
 date: 2025-04-17 21:58:00+0800
 categories:
     - Linux

@@ -1,6 +1,5 @@
 ---
 title: DeepSeek-V3学习
-slug: AILLM-1
 date: 2025-04-19 14:37:00+0800
 categories:
     - AILLM

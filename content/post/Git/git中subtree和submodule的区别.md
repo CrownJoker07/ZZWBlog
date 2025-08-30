@@ -1,6 +1,5 @@
 ---
 title: git中subtree和submodule的区别
-slug: Git-3
 date: 2025-03-09 16:00:00+0800
 categories:
     - Git

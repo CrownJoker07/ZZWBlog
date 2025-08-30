@@ -1,6 +1,5 @@
 ---
 title: git如何删除历史大文件
-slug: Git-1
 date: 2025-03-02 00:00:00+0800
 categories:
     - Git

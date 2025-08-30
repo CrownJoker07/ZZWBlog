@@ -1,6 +1,5 @@
 ---
 title: Github如何一键部署
-slug: Git-2
 date: 2025-03-03 00:00:00+0800
 categories:
     - Git
