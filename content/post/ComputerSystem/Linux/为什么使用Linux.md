@@ -82,5 +82,6 @@ categories:
 - **混合方案**：企业常采用Windows桌面+Linux服务器架构，兼顾灵活性与成本。
 
 ---
+
 最近想学习Deepseek-V1的源代码，了解一下AI大模型，看看原理是什么，能否应用在游戏开发中，提高开发效率。  
 拉取源码运行后发现，Deepseek-v1所需要的Python依赖只有Linux系统环境有，因此顺便学习一下Linux。
