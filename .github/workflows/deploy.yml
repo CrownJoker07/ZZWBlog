@@ -1,7 +1,7 @@
 name: Deploy Hugo
 on:
   push:
-    branches: [main]  # 触发分支（源码分支）
+    branches: [main] # 触发分支（源码分支）
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -9,10 +9,12 @@ jobs:
       - name: 拉取代码
         uses: actions/checkout@v4
         with:
-          submodules: true  # 如果用了主题子模块必加
+          submodules: true # 如果用了主题子模块必加
 
       - name: 安装 Hugo
-        run: sudo snap install hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y hugo
 
       - name: 生成静态文件
         run: hugo --minify
@@ -21,7 +23,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # 从默认的 GITHUB_TOKEN 改为自己的 Personal Token
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}  
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
           # 指定目标仓库（格式：用户名/仓库名）
           external_repository: CrownJoker07/CrownJoker07.github.io
           publish_dir: ./public
