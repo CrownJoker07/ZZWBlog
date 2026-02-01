@@ -2,7 +2,6 @@ name: Deploy Hugo
 on:
   push:
     branches: [main] # 触发分支（源码分支）
-  workflow_dispatch:  # 👈 手动触发（关键）
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
