@@ -1,6 +1,6 @@
+.DS_Store
+
 .hugo_build.lock
-public
-resources
-jsconfig.json
-content/post/.obsidian
-.claude/settings.local.json
+public/
+resources/
+/assets/jsconfig.json
