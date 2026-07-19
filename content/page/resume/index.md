@@ -3,10 +3,9 @@ title: "个人"
 slug: "personal"
 outputs:
     - html
-    - json
 menu:
     main:
-        weight: 5
+        weight: 6
         params: 
             icon: user
 ---
