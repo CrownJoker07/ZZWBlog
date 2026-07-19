@@ -22,7 +22,7 @@ shortname = "hugo-theme-stack"
 
 # 内容管理
 [pagination]
-pagerSize = 10
+pagerSize = 15
 [permalinks]
 post = "/p/:slug/"
 page = "/:slug/"
