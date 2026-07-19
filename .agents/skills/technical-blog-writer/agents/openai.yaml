@@ -1,0 +1,4 @@
+interface:
+  display_name: "技术博客写作"
+  short_description: "创建、审阅和润色结构清晰、技术准确的中文技术博客文章"
+  default_prompt: "使用 $technical-blog-writer 创建或润色一篇结构清晰、代码准确的中文技术博客文章。"
