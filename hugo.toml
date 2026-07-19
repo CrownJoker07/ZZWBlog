@@ -1,18 +1,18 @@
 # 基础配置
 baseurl = "https://crownjoker07.github.io/"
-languageCode = "zh-cn"
+locale = "zh-CN"
 theme = "hugo-theme-stack"
 title = "ZZWBlog"
 copyright = "ZhuangZewei"
-DefaultContentLanguage = "zh-cn"
-hasCJKLanguage = false
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
 
 # 多语言配置
-[languages.zh-cn]
-languageName = "中文"
+[languages.zh]
+label = "中文"
 title = "庄泽伟的博客"
 weight = 1
-[languages.zh-cn.params.sidebar]
+[languages.zh.params.sidebar]
 subtitle = "一只乌鸦的自白"
 
 # 服务集成
@@ -32,7 +32,6 @@ page = "/:slug/"
 [params]
 favicon = "favicon/favicon.ico"
 mainSections = ["post"]
-featuredImageField = "image"
 rssFullContent = true
 
 [params.footer]
@@ -45,11 +44,7 @@ lastUpdated = "Jan 02, 2006 15:04 MST"
 ## 侧边栏设置
 [params.sidebar]
 emoji = "😄"
-
-[params.sidebar.avatar]
-enabled = true
-local = true
-src = "img/avatar.png"
+avatar = "img/avatar.png"
 
 ## 文章页面
 [params.article]
@@ -101,15 +96,11 @@ type = "toc"
 [params.opengraph.twitter]
 card = "summary_large_image"
 
-[params.defaultImage.opengraph]
-enabled = false
-local = false
-
 [params.colorScheme]
 toggle = true
 default = "auto"
 
-[params.imageProcessing.cover]
+[params.imageProcessing.thumbnail]
 enabled = true
 
 [params.imageProcessing.content]
