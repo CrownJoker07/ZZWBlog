@@ -77,6 +77,36 @@ hugo --minify
 └── hugo.toml    # 站点配置
 ```
 
+## 新建文章
+
+文章使用 Hugo 叶子页面包组织。新建文章时，路径写到文章目录，不需要添加 `.md` 后缀：
+
+```bash
+hugo new content post/Git/文章名称
+```
+
+命令会生成以下结构：
+
+```text
+content/post/Git/文章名称/
+└── index.md
+```
+
+文章需要插图时，在文章目录中创建 `assets/` 子目录：
+
+```text
+content/post/Git/文章名称/
+├── index.md
+└── assets/
+    └── example.png
+```
+
+在 `index.md` 中使用相对路径引用图片：
+
+```markdown
+![](assets/example.png)
+```
+
 ## 部署
 
 仓库已有 GitHub Actions 部署流程。代码推送到 `main` 分支后，工作流会执行 `hugo --minify`，再将 `public/` 发布到 `CrownJoker07/CrownJoker07.github.io` 仓库的 `main` 分支。
