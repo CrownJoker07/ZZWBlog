@@ -9,9 +9,10 @@ hasCJKLanguage = true
 
 # 多语言配置
 [languages.zh]
-label = "中文"
 title = "庄泽伟的博客"
 weight = 1
+[languages.zh.params]
+label = "中文"
 [languages.zh.params.sidebar]
 subtitle = "一只乌鸦的自白"
 

@@ -12,9 +12,10 @@ jobs:
           submodules: true # 如果用了主题子模块必加
 
       - name: 安装 Hugo
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.157.0'
+          extended: true
 
       - name: 生成静态文件
         run: hugo --minify
