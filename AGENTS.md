@@ -1,15 +1,12 @@
-# AGENTS.md - 项目配置
+# AGENTS.md
 
-## 项目说明
+## 内容规范
 
-ZZWBlog 是一个基于 Hugo 的技术博客，使用主题 `hugo-theme-stack`。
+- 使用 Hugo Shortcodes 嵌入 Mermaid 图表。
+- 中文排版使用全角标点符号。
 
-## 开发习惯
+## 主题源码保护
 
-- 使用 Hugo Shortcodes 嵌入 Mermaid 图表
-- 中文排版使用全角标点符号
-
-## 常用命令
-
-- 本地预览：`hugo server -D`
-- 构建：`hugo -D`
+- 不得直接修改 `themes/` 目录中的主题源码。
+- 自定义模板、资源和样式必须通过项目根目录下的 `layouts/`、`assets/` 或 `static/` 覆盖实现。
+- 只有用户明确要求安装或升级主题时，才允许整体替换 `themes/` 中对应的主题目录；替换后主题目录必须与指定的上游版本保持一致。
