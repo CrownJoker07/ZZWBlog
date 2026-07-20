@@ -1,3 +1,6 @@
 {{- if .Params.mermaid -}}
-<script async src="{{ "js/vendors/mermaid.min.js" | relURL }}"></script>
+<script defer src="{{ "js/vendors/mermaid.min.js" | relURL }}"></script>
+<script defer src="{{ "js/mermaid-theme.js?v=1" | relURL }}"></script>
+<link rel="stylesheet" href="{{ "css/mermaid-zoom.css?v=3" | relURL }}">
+<script defer src="{{ "js/mermaid-zoom.js?v=5" | relURL }}"></script>
 {{- end -}}

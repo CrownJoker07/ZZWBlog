@@ -1,0 +1,68 @@
+.mermaid-zoom {
+    --mermaid-zoom-canvas: #fff;
+}
+
+[data-scheme="dark"] .mermaid-zoom {
+    --mermaid-zoom-canvas: #111827;
+}
+
+.article-content .mermaid:has(svg) {
+    cursor: zoom-in;
+}
+
+.article-content .mermaid:has(svg):focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: 4px;
+}
+
+.mermaid-zoom {
+    position: fixed;
+    z-index: 10000;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    padding: 3vh 3vw;
+    background: rgba(0, 0, 0, 0.82);
+}
+
+.mermaid-zoom[hidden] {
+    display: none;
+}
+
+.mermaid-zoom__canvas {
+    width: 94vw;
+    height: 90vh;
+    overflow: auto;
+    padding: 24px;
+    border-radius: var(--card-border-radius);
+    background: var(--mermaid-zoom-canvas);
+    box-shadow: var(--shadow-l4);
+}
+
+.mermaid-zoom__canvas svg {
+    display: block;
+    max-width: none !important;
+    height: auto !important;
+    margin: auto;
+    background: var(--mermaid-zoom-canvas) !important;
+}
+
+.mermaid-zoom__close {
+    position: fixed;
+    z-index: 1;
+    top: 4vh;
+    right: 4vw;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.72);
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+body.mermaid-zoom-open {
+    overflow: hidden;
+}
