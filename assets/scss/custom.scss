@@ -1,7 +1,5 @@
 .notes-parent-nav {
-    position: fixed;
-    right: 2rem;
-    bottom: 2rem;
+    align-self: flex-start;
     z-index: 20;
 
     a {
@@ -21,9 +19,16 @@
     }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 1280px) {
+    main.main:has(> .notes-parent-nav) {
+        position: relative;
+    }
+
     .notes-parent-nav {
-        right: 1rem;
-        bottom: 1rem;
+        position: absolute;
+        top: var(--main-top-padding);
+        right: calc(100% + 0.5rem);
+        width: max-content;
+        max-width: 12rem;
     }
 }
