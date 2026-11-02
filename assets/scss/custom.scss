@@ -1,3 +1,22 @@
+.subsection-list.notes-subsections {
+    overflow: visible;
+    margin: 0;
+    -webkit-mask-image: none;
+    mask-image: none;
+    animation: none;
+
+    .article-list--tile {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(#{"min(100%, 20rem)"}, 1fr));
+        width: 100%;
+        padding: 0;
+
+        article {
+            width: 100%;
+        }
+    }
+}
+
 .notes-parent-nav {
     align-self: flex-start;
     z-index: 20;

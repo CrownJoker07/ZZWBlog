@@ -49,7 +49,7 @@
     {{- with $subsections -}}
         <aside>
             <h2 class="section-title">{{ T "list.subsection" (len $subsections) }}</h2>
-            <div class="subsection-list">
+            <div class="subsection-list notes-subsections">
                 <div class="article-list--tile">
                     {{ range . }}
                         {{ partial "article-list/tile" . }}
