@@ -39,12 +39,7 @@
         </div>
     </header>
 
-    {{- $pages := partial "helper/pages.html" . -}}
     {{- $subsections := .Sections -}}
-    
-    {{- if and (eq (len $pages) (len $subsections)) (eq $pages $subsections) -}}
-        {{- $subsections = slice -}}
-    {{- end -}}
 
     {{- with $subsections -}}
         <aside>
@@ -61,9 +56,9 @@
     
     {{/* List only pages that are not a subsection */}}
     {{ $paginator := partial "helper/paginator.html" . }}
-    {{ with $paginator }}
+    {{ with $paginator.Pages }}
         <section class="article-list--compact">
-            {{ range .Pages }}
+            {{ range . }}
                 {{ partial "article-list/compact" . }}
             {{ end }}
         </section>

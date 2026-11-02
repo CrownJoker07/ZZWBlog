@@ -82,20 +82,20 @@ hugo --minify
 所有内容统一存放在 `content/notes/`，使用 Hugo 叶子页面包组织。新建笔记时，路径写到笔记目录，不需要添加 `.md` 后缀：
 
 ```bash
-hugo new content notes/Git/笔记名称
+hugo new content notes/计算机与编程/Git/笔记名称
 ```
 
 命令会生成以下结构：
 
 ```text
-content/notes/Git/笔记名称/
+content/notes/计算机与编程/Git/笔记名称/
 └── index.md
 ```
 
 笔记需要插图时，在笔记目录中创建 `assets/` 子目录：
 
 ```text
-content/notes/Git/笔记名称/
+content/notes/计算机与编程/Git/笔记名称/
 ├── index.md
 └── assets/
     └── example.png

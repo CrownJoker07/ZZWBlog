@@ -8,7 +8,7 @@
     {{- $subsections := .Sections -}}
     {{- $pages = .Pages | complement $subsections -}}
 
-    {{- if eq (len $pages) 0 -}}
+    {{- if and (ne .Section "notes") (eq (len $pages) 0) -}}
         {{- $pages = $subsections -}}
     {{- end -}}
 {{- end -}}
