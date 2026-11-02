@@ -2,8 +2,6 @@
 post: true
 title: git中subtree和submodule的区别
 date: 2025-03-09 16:00:00+0800
-categories:
-    - Git
 ---
 
 > 最近在公司的项目中有一部分的代码需要多个项目共用（其实这部分代码就是我所写的一些工具代码），简单调查了一下发现有 subtree（子树）和 submodule（子模块）这两种方式，于是乎就有了这一篇文章

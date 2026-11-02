@@ -2,8 +2,6 @@
 post: true
 title: UDP vs. TCP
 date: 2025-05-25 18:42:00+0800
-categories:
-    - Network
 ---
 
 以下是您提供的文章的逐段详细解析，结合技术要点和实际应用场景：

@@ -22,6 +22,9 @@ shortname = "hugo-theme-stack"
 [services.googleAnalytics]
 
 # 内容管理
+[taxonomies]
+tag = "tags"
+
 [pagination]
 pagerSize = 15
 [permalinks]
@@ -75,9 +78,6 @@ type = "search"
 [[params.widgets.homepage]]
 type = "categories"
 
-[params.widgets.homepage.params]
-limit = 10
-
 [[params.widgets.homepage]]
 type = "tag-cloud"
 
@@ -130,10 +130,6 @@ toLower = false
 [[related.indices]]
 name = "tags"
 weight = 100
-
-[[related.indices]]
-name = "categories"
-weight = 200
 
 # Markdown 渲染
 [markup.goldmark.extensions.passthrough]

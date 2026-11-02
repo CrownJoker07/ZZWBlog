@@ -2,8 +2,6 @@
 post: true
 title: 编程语言可以怎么分类
 date: 2025-06-02 08:46:00+0800
-categories:
-    - Programs
 mermaid: true
 ---
 

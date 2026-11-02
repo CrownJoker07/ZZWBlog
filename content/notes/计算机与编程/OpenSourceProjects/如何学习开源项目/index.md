@@ -2,8 +2,6 @@
 post: true
 title: 如何学习开源项目
 date: 2025-08-09 07:36:00+0800
-categories:
-    - OpenSourceProjects
 ---
 
 学习开源项目就像 ​学做一道新菜​ —— 别急着翻锅铲，按这五步走更高效：

@@ -2,8 +2,6 @@
 post: true
 title: 什么是SSH传输？
 date: 2025-05-25 10:58:00+0800
-categories:
-    - Network
 ---
 
 > Git拉取发现有HTTPS拉取和SSH拉取，因此研究一下SSH拉取

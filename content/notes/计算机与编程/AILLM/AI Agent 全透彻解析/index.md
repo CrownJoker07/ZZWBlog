@@ -2,8 +2,6 @@
 post: true
 title: "AI Agent 全透彻解析：Skill、Tool、MCP 与主流 Agent 的关系"
 date: 2026-07-20T10:09:24+08:00
-categories:
-  - AILLM
 mermaid: true
 draft: false
 ---

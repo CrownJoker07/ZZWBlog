@@ -2,8 +2,6 @@
 post: true
 title: "把 Bug 修复接入飞书：多维表格、机器人与 Nanobot 的人机协同闭环"
 date: 2026-07-20T06:40:00+08:00
-categories:
-  - AILLM
 mermaid: true
 draft: false
 ---

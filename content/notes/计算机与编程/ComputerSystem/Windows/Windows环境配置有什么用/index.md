@@ -2,8 +2,6 @@
 post: true
 title: windows环境配置有什么用?
 date: 2025-08-30 15:22:00+0800
-categories:
-    - Windows
 ---
 
 Windows环境配置，特别是其核心机制“环境变量”，是操作系统与用户、应用程序之间沟通的桥梁。

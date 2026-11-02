@@ -1,0 +1,19 @@
+{{- $section := .Context -}}
+{{- if .Context.IsHome -}}
+    {{- $section = .Context.Site.GetPage "/notes" -}}
+{{- end -}}
+{{- with $section.Sections -}}
+<section class="widget tagCloud">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "categories" }}
+    </div>
+    <h2 class="widget-title section-title">
+        <a href="{{ $section.RelPermalink }}">{{ T "widget.categoriesCloud.title" }}</a>
+    </h2>
+    <div class="tagCloud-tags">
+        {{ range . }}
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+    </div>
+</section>
+{{- end -}}

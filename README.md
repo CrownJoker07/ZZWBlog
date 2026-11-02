@@ -107,6 +107,8 @@ content/notes/计算机与编程/Git/笔记名称/
 ![](assets/example.png)
 ```
 
+分类直接使用笔记所属子章节的标题，分类链接指向该章节，无须填写 `categories`。移动笔记目录或修改章节标题后，分类会随之更新。
+
 笔记默认包含 `post = false`。整理为适合独立阅读的文章后，将 front matter 中的 `post` 改为 `true`，并将 `draft` 改为 `false`，即可在首页展示。YAML front matter 对应写法为 `post: true` 和 `draft: false`。
 
 笔记入口和搜索包含全部非草稿笔记。文章始终保留在原来的笔记目录中，切换 `post` 标记不会改变链接。URL 按笔记目录自动生成，无须填写 `url` 字段。

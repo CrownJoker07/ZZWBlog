@@ -2,8 +2,6 @@
 post: true
 title: windows注册表有什么用?
 date: 2025-08-30 14:59:00+0800
-categories:
-    - Windows
 ---
 
 # 🔍 Windows注册表：由来、作用与跨系统对比

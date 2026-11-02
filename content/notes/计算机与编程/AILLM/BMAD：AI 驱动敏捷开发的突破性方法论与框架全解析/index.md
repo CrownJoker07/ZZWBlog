@@ -2,8 +2,6 @@
 post: true
 title: "BMAD：AI 驱动敏捷开发的突破性方法论与框架全解析"
 date: 2026-03-13T07:45:00+08:00
-categories:
-  - AILLM
 mermaid: true
 draft: "false"
 ---

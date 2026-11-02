@@ -2,8 +2,6 @@
 post: true
 title: TLS和SSL传输
 date: 2025-05-25 18:20:00+0800
-categories:
-    - Network
 ---
 
 > 最近研究Godot的多人联机，阅读文档发现TLS和SSL协议

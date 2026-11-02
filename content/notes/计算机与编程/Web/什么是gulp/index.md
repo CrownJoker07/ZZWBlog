@@ -2,8 +2,6 @@
 post: true
 title: 什么是gulp
 date: 2025-08-21 08:05:00+0800
-categories:
-    - Web
 ---
 
 > github地址:<https://github.com/gulpjs/gulp>

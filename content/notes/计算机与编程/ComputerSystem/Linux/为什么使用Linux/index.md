@@ -2,8 +2,6 @@
 post: true
 title: 为什么使用Linux?
 date: 2025-04-17 21:58:00+0800
-categories:
-    - Linux
 ---
 
 > 明明有Windows系统、却还是会要使用Linux，是为什么呢？

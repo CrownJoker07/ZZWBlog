@@ -2,8 +2,6 @@
 post: true
 title: 增长与商业化数据决策体系文档
 date: 2026-02-02 07:14:00+0800
-categories:
-  - DataAnalysis
 ---
 # 广告投放工作术语与业务说明文档
 

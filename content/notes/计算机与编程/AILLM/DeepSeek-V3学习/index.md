@@ -2,8 +2,6 @@
 post: true
 title: DeepSeek-V3学习
 date: 2025-04-19 14:37:00+0800
-categories:
-    - AILLM
 mermaid: true
 ---
 

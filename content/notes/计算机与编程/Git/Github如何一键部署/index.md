@@ -2,8 +2,6 @@
 post: true
 title: Github如何一键部署
 date: 2025-03-03 00:00:00+0800
-categories:
-    - Git
 tags:
     - Git
 ---
