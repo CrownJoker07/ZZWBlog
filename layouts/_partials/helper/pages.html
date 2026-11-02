@@ -1,0 +1,18 @@
+{{- $pages := .Pages -}}
+
+{{- if .IsHome -}}
+    {{- $pages = where (where .Site.RegularPages "Section" "notes") "Params.post" true -}}
+{{- else if eq .RelPermalink ("/notes/" | relLangURL) -}}
+    {{- $pages = .RegularPagesRecursive -}}
+{{- else if or (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term") -}}
+    {{- $subsections := .Sections -}}
+    {{- $pages = .Pages | complement $subsections -}}
+
+    {{- if eq (len $pages) 0 -}}
+        {{- $pages = $subsections -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $pages := partial "helper/pages-sort.html" (dict "Pages" $pages "Context" .) -}}
+
+{{- return $pages -}}

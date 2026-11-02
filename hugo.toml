@@ -25,14 +25,13 @@ shortname = "hugo-theme-stack"
 [pagination]
 pagerSize = 15
 [permalinks]
-post = "/p/:slug/"
 page = "/:slug/"
 
 # 主题参数
 ## 全局参数
 [params]
 favicon = "favicon/favicon.ico"
-mainSections = ["post"]
+mainSections = ["notes"]
 rssFullContent = true
 
 [params.footer]
@@ -72,12 +71,6 @@ issueTerm = "pathname"
 
 [[params.widgets.homepage]]
 type = "search"
-
-[[params.widgets.homepage]]
-type = "archives"
-
-[params.widgets.homepage.params]
-limit = 5
 
 [[params.widgets.homepage]]
 type = "categories"

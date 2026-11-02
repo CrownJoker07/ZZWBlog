@@ -77,25 +77,25 @@ hugo --minify
 └── hugo.toml    # 站点配置
 ```
 
-## 新建文章
+## 新建笔记
 
-文章使用 Hugo 叶子页面包组织。新建文章时，路径写到文章目录，不需要添加 `.md` 后缀：
+所有内容统一存放在 `content/notes/`，使用 Hugo 叶子页面包组织。新建笔记时，路径写到笔记目录，不需要添加 `.md` 后缀：
 
 ```bash
-hugo new content post/Git/文章名称
+hugo new content notes/Git/笔记名称
 ```
 
 命令会生成以下结构：
 
 ```text
-content/post/Git/文章名称/
+content/notes/Git/笔记名称/
 └── index.md
 ```
 
-文章需要插图时，在文章目录中创建 `assets/` 子目录：
+笔记需要插图时，在笔记目录中创建 `assets/` 子目录：
 
 ```text
-content/post/Git/文章名称/
+content/notes/Git/笔记名称/
 ├── index.md
 └── assets/
     └── example.png
@@ -106,6 +106,10 @@ content/post/Git/文章名称/
 ```markdown
 ![](assets/example.png)
 ```
+
+笔记默认包含 `post = false`。整理为适合独立阅读的文章后，将 front matter 中的 `post` 改为 `true`，并将 `draft` 改为 `false`，即可在首页展示。YAML front matter 对应写法为 `post: true` 和 `draft: false`。
+
+笔记入口和搜索包含全部非草稿笔记。文章始终保留在原来的笔记目录中，切换 `post` 标记不会改变链接。URL 按笔记目录自动生成，无须填写 `url` 字段。
 
 ## 部署
 

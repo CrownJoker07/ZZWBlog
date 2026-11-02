@@ -1,4 +1,4 @@
-{{- $pages := where .Site.RegularPages "Type" "in" (slice "post" "notes") -}}
+{{- $pages := where .Site.RegularPages "Section" "notes" -}}
 {{- $result := slice -}}
 
 {{- range $pages -}}
