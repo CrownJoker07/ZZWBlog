@@ -1,0 +1,5 @@
+{{ if eq .Section "notes" }}
+<nav class="notes-parent-nav" aria-label="目录导航">
+    <a href="{{ .Parent.RelPermalink }}">{{ if eq .Parent (.GetPage "/") }}← 返回首页{{ else }}← 返回「{{ .Parent.Title }}」{{ end }}</a>
+</nav>
+{{ end }}
