@@ -14,8 +14,10 @@ jobs:
       - name: 安装 Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.164.0'
-          extended: true
+          hugo-version: '0.170.0'
+
+      - name: 安装 Dart Sass
+        run: sudo snap install dart-sass
 
       - name: 生成静态文件
         run: hugo --minify
