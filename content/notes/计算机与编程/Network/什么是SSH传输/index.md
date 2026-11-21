@@ -1,7 +1,8 @@
 ---
-post: true
 title: 什么是SSH传输？
-date: 2025-05-25 10:58:00+0800
+description: "从 Git 拉取方式出发，梳理 SSH 的作用和连接过程"
+date: "2025-05-25T10:58:00+08:00"
+post: true
 ---
 
 > Git拉取发现有HTTPS拉取和SSH拉取，因此研究一下SSH拉取

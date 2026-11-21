@@ -1,9 +1,9 @@
 ---
-post: true
 title: "把 Bug 修复接入飞书：多维表格、机器人与 Nanobot 的人机协同闭环"
+description: "记录用飞书多维表格和 Nanobot 串联缺陷记录、派单与人工参与的修复流程"
 date: 2026-07-20T06:40:00+08:00
 mermaid: true
-draft: false
+post: true
 ---
 
 > 本文介绍一套运行在 Mac mini 上的 Bug 修复闭环：飞书多维表格负责记录和派单，Nanobot 负责分析、修复和推送分支，开发者负责最终 Review 与合并。

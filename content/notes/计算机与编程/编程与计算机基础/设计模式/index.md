@@ -1,8 +1,7 @@
 ---
 title: "设计模式"
+description: "整理常见设计模式的用途和实现思路，包括单例模式"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### 单例模式

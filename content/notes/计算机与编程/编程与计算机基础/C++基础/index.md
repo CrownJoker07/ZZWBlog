@@ -1,8 +1,7 @@
 ---
 title: "C++ 基础"
+description: "整理 C++ 基础知识，包括动态内存分配与释放"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### C++中int* a = new int(10)与int* a = new int[10]的区别

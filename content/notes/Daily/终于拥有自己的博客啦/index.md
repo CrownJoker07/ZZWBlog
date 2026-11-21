@@ -1,7 +1,8 @@
 ---
-post: true
 title: 终于拥有自己的博客啦！！！
-date: 2025-03-01 00:00:00+0800
+description: "记录从尝试 Jekyll 到用 Hugo 和 GitHub Pages 搭建个人博客的过程"
+date: "2025-03-01T00:00:00+08:00"
+post: true
 ---
 
 终于搭建出自己的博客了!!!😄😄😄

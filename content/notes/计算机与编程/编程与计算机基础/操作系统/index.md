@@ -1,8 +1,7 @@
 ---
 title: "操作系统"
+description: "整理操作系统相关知识，包括 LRU 页面置换算法及其实现"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### LRU怎么实现的？

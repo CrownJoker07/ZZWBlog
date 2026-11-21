@@ -2,7 +2,6 @@
 title: "新人自媒体平台选择：先做一个，再逐步扩展"
 description: "结合 Joe Pulizzi、Justin Welsh 与 Gary Vaynerchuk 的创作和经营经验，结合用户特征、收入数据与创作者经验，分析单平台起步、多平台分发与首个平台的选择"
 date: "2026-10-25T00:00:00+08:00"
-license: false
 ---
 
 时间有限、独立创作的新人，可以优先建立一个主平台；已有稳定素材和改编能力时，再扩大分发范围。这一建议来自对 Joe Pulizzi、Justin Welsh 和 Gary Vaynerchuk 公开经验的比较，具体适用条件如下。

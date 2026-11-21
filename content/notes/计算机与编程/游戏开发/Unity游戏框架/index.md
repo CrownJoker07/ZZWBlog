@@ -1,8 +1,7 @@
 ---
 title: "从零搭建 Unity 游戏框架：前言"
+description: "记录搭建 Unity 游戏框架的动机与设计思路"
 date: "2025-02-06T15:18:48+08:00"
-draft: false
-license: false
 ---
 
 # 前言

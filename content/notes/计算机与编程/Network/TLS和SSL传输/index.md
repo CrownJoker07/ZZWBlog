@@ -1,7 +1,8 @@
 ---
-post: true
 title: TLS和SSL传输
-date: 2025-05-25 18:20:00+0800
+description: "梳理 TLS 与 SSL 的关系，以及加密连接建立的基本过程"
+date: "2025-05-25T18:20:00+08:00"
+post: true
 ---
 
 > 最近研究Godot的多人联机，阅读文档发现TLS和SSL协议

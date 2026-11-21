@@ -1,7 +1,8 @@
 ---
-post: true
 title: windows注册表有什么用?
-date: 2025-08-30 14:59:00+0800
+description: "梳理 Windows 注册表的由来、结构和配置用途"
+date: "2025-08-30T14:59:00+08:00"
+post: true
 ---
 
 # 🔍 Windows注册表：由来、作用与跨系统对比

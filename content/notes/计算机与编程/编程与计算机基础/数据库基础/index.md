@@ -1,8 +1,7 @@
 ---
 title: "数据库基础"
+description: "整理数据库系统、关系模型、SQL、数据库设计与事务控制"
 date: "2025-02-16T15:15:16+08:00"
-draft: false
-license: false
 ---
 
 # 数据库基础

@@ -1,8 +1,7 @@
 ---
 title: "自媒体内容规划"
+description: "整理内容定位、视频质量、更新节奏和观众互动的规划要点"
 date: "2025-01-19T17:18:54+08:00"
-draft: false
-license: false
 ---
 
 # 收集资料:

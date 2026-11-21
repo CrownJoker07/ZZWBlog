@@ -1,9 +1,9 @@
 ---
-post: true
 title: "BMAD：AI 驱动敏捷开发的突破性方法论与框架全解析"
+description: "从大语言模型的工作方式出发，梳理 BMAD 的敏捷开发流程"
 date: 2026-03-13T07:45:00+08:00
 mermaid: true
-draft: "false"
+post: true
 ---
 
 > 在讨论 BMAD 之前，需要先理解一个根本性问题：AI 到底是"怎么工作"的。这个问题的答案直接影响我们如何正确使用 AI 进行开发。

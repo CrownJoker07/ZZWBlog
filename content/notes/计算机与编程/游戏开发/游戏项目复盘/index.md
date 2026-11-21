@@ -1,8 +1,7 @@
 ---
 title: "游戏项目复盘"
+description: "回顾游戏项目中的实现难点与解决思路，包括对象池和碰撞处理"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### 雷霆战机

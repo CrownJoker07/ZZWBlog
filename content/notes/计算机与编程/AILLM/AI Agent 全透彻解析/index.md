@@ -1,9 +1,9 @@
 ---
-post: true
 title: "AI Agent 全透彻解析：Skill、Tool、MCP 与主流 Agent 的关系"
+description: "梳理 AI Agent、工具、技能、MCP 和运行时各自的职责"
 date: 2026-07-20T10:09:24+08:00
 mermaid: true
-draft: false
+post: true
 ---
 
 > AI Agent 不是某一种模型，也不只是“能聊天的 AI”。本文以官方定义为准，解释 Agent、Tool、Skill、MCP 的边界，并对比 Claude Code、Codex、OpenCode、OpenClaw、Hermes Agent 与 Nanobot 的定位和关系。

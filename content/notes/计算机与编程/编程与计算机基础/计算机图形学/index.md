@@ -1,8 +1,7 @@
 ---
 title: "计算机图形学"
+description: "整理光线追踪、层次包围体和轴对齐包围盒等图形学概念"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### 光追加速结构(BVH树)

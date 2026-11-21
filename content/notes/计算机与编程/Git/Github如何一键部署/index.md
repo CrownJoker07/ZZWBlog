@@ -1,7 +1,8 @@
 ---
-post: true
 title: Github如何一键部署
-date: 2025-03-03 00:00:00+0800
+description: "记录使用 GitHub Actions 自动部署 Hugo 博客的配置过程"
+date: "2025-03-03T00:00:00+08:00"
+post: true
 tags:
     - Git
 ---

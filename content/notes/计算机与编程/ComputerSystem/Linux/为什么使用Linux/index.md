@@ -1,7 +1,8 @@
 ---
-post: true
 title: 为什么使用Linux?
-date: 2025-04-17 21:58:00+0800
+description: "从系统架构、开源性和使用场景比较 Linux 与 Windows"
+date: "2025-04-17T21:58:00+08:00"
+post: true
 ---
 
 > 明明有Windows系统、却还是会要使用Linux，是为什么呢？

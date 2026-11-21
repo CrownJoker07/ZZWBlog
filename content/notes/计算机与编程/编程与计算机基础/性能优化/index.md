@@ -1,8 +1,7 @@
 ---
 title: "性能优化"
+description: "梳理游戏中的 CPU 和 GPU 性能开销及常见优化手段"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### 游戏中影响性能的几个因素（游戏优化）

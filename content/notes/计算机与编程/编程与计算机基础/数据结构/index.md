@@ -1,8 +1,7 @@
 ---
 title: "数据结构"
+description: "整理数据结构的分类、算法效率、线性表、树和图"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 # 一、基本概念

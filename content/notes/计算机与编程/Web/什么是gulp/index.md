@@ -1,7 +1,8 @@
 ---
-post: true
 title: 什么是gulp
-date: 2025-08-21 08:05:00+0800
+description: "回顾 Gulp 的由来，并梳理它在前端任务自动化中的用途"
+date: "2025-08-21T08:05:00+08:00"
+post: true
 ---
 
 > github地址:<https://github.com/gulpjs/gulp>

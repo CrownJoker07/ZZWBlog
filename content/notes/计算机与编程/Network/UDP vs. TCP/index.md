@@ -1,7 +1,8 @@
 ---
-post: true
 title: UDP vs. TCP
-date: 2025-05-25 18:42:00+0800
+description: "比较 TCP 与 UDP 的传输特性和适用场景"
+date: "2025-05-25T18:42:00+08:00"
+post: true
 ---
 
 以下是您提供的文章的逐段详细解析，结合技术要点和实际应用场景：

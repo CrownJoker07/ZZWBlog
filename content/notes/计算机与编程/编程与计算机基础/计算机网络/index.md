@@ -1,8 +1,7 @@
 ---
 title: "计算机网络"
+description: "整理 TCP、UDP 和 TCP 握手等计算机网络基础知识"
 date: "2025-02-16T15:16:25+08:00"
-draft: false
-license: false
 ---
 
 ### TCP和UDP区别
